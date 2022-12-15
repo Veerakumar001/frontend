@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="App.css">
+  <title>Lazada</title>
+</head>
+
+  <body>
+  <div class="container">
+    <h1 >Sign up</h1>
+    <hr>
+    
+    <fieldset class="sub-container" id="basic-details">
+      <h2 >Basic Details</h2>
+      <hr>
+      
+        <label for="dropdown" class="standard-label">
+          Title*
+          <br>
+          <select  id="dropdown" class="standard-select" required>
+            <option disabled selected>Select Title</option>
+            <option >Mr</option>
+            <option >Mrs</option>
+            <option >Miss</option>
+            <option >Ms</option>
+            <option >Dr</option>
+            <option >Prof</option>
+          </select>
+        </label>
+        
+        <label for="firstname" class="standard-label">
+          First Name*
+          <input class="standard-input" name="firstname" id="firstname" type="text" placeholder="First name..." required>
+        </label>
+        <label for="lastname" class="standard-label">
+          Last Name*
+          <input class="standard-input" name="lastname" id="lastname" type="text" placeholder="Last name..." required>
+        </label>
+        <label for="phone-number" class="standard-label">
+          Phone Number*
+          <input class="standard-input" type="tel" id="phone" name="phone" placeholder="Example: 01925999111" required>
+        </label>
+        <label for="email-address" class="standard-label">
+          Email*
+          <input class="standard-input" id="email-address" type="email" placeholder="Your email address..." required>
+        </label>
+        <label for="DOB" class="standard-label">
+          Date of Birth*
+          <input class="standard-input" type="date" name="DOB" id="DOB" required>
+        </label>
+    
+      </fieldset>
+      
+      <fieldset class="sub-container" id="address-history">
+        <h2 >Address History</h2>
+        <hr>
+        
+        <div id="current-address">
+          <h3 >Current Address</h3>
+          <label>
+            Address line 1*
+            <input class="standard-input" type="text" required>
+          </label>
+          <label>
+            Address line 2
+            <input class="standard-input" type="text">
+          </label>
+          <label>
+            Town/City*
+            <input class="standard-input" type="text" required>
+          </label>
+          <label >
+            Post Code*
+            <input class="standard-input" type="text" maxlength="8" required>
+          </label>
+        
+      </fieldset>
+
+      <fieldset class="sub-container" id="your-consent">
+        
+        <hr>
+        <label class="standard-label" id="credit-search" for="credit-search">
+          Would you like to subscribe to our newsletter?
+          <br>
+        <input type="checkbox" id="credit-click" name="credit-search"><br>
+        </label>
+        
+        <button type="button" id="submit-app">Submit Application</button>
+      </fieldset>
+    
+  </div>
+  
+</body>
+</html>

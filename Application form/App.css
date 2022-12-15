@@ -1,0 +1,85 @@
+body {
+  font-family: helvetica, sans-serif;
+  
+}
+
+fieldset {
+  min-height: 200px;
+}
+
+.standard-label, .standard-input {
+    display: block;
+}
+
+.standard-label {
+  margin-bottom: 20px;
+}
+
+.standard-input, .standard-select {
+  margin-top: 10px;
+  border: 3px rgb(169, 90, 243) solid;
+  border-radius: 5px;
+  padding: 2px;
+}
+
+.standard-input {
+  height: 25px;
+  width: 250px;
+  font-size: 1em;
+}
+
+.standard-select {
+  height: 32px;
+  width: 150px;
+  font-size: 1em;
+}
+
+
+.container {
+  width: 70%;
+  max-width: 800px;
+  margin: 0 auto;
+  border: 1px black solid;
+  padding: 10px;
+  background-color: rgb(211, 23, 221); 
+}
+
+.sub-container {
+  padding-left: 10px;
+  background-color: white;
+  margin: 10px auto;
+}
+
+
+#submit-app {
+  display: box;
+  border: 2px black solid;
+  background-color: rgb(237, 15, 15);
+  border-radius: 5px;
+  margin: 15px auto;
+  height: 50px;
+  width: 180px;
+  font-size: 20px;
+  float: right;
+}
+
+input[type="checkbox"] {
+  height: 20px;
+  width: 20px;
+  margin-top: 20px;
+  margin-left: 45px;
+}
+button{
+  font-family: Georgia, serif;
+}
+button:hover{
+  color: aqua;
+}
+h1{
+  text-align: center;
+}
+.add{
+  text-align: center;
+}
+
+
